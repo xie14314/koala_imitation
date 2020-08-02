@@ -1,0 +1,210 @@
+.sportswrap{
+    width: 1520px; height: 930px;
+    /* border: 1px solid red; */
+    background-color: #f6f6f6;
+}
+
+.midsportswrap{
+    width: 1100px; height: 74px;
+    margin: 0 auto;
+    /* border:2px solid yellow; */
+    position: relative;
+}
+
+.outdoorsactivity{
+    float: left;
+    font-size: 22px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/* 热搜词 */
+.sportsul li{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    margin: 45px 0 0 20px;
+}
+
+.sportsul a{
+    color: #ff2337;
+}
+
+.sportsul a:hover{
+    text-decoration: underline;
+}
+
+.midsportswrap lable{
+    float: right;
+    margin: 40px 0 0 0;
+}
+.midsportswrap lable a{
+    color: #999;
+    font-size: 14px;
+
+}
+.midsportswrap lable a:hover{
+    text-decoration: underline;
+}
+
+.shoes{
+    width: 1090px; height: 541px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    position: relative;
+}
+/* 大图广告 */
+.shoesbigad{
+    width: 330px; height: 541px;
+    float: left;
+    position: relative;
+    border: 1px 0 1px 1px  solid #ddd;
+    background-image: url('https://kaola-haitao.oss.kaolacdn.com/4O1yWA5GGK2deliT06U9x6wSNf_330_542T1811012029_330_542.jpg?x-oss-process=image/resize,w_330/quality,q_95');
+}
+
+.clothesclass{
+    width: 306px; height: 100px;
+    /* background-color: red; */
+    margin: 410px 0 0 15px;
+}
+
+.clothesclass li{
+    width: 67px; height: 29px;
+    background-color: #fff;
+    float: left;
+    font-size: 12px;
+    color:#333;
+    margin: 7px 10px 0 5px;
+    border-radius: 21px;
+    padding: 13px 0 0 19px;
+}
+
+/* 小图广告 */
+.parts{
+    width: 273px; height: 269px;
+    float: left;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.boxtitle{
+    float: left;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.discount{
+    float: left;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 74px;
+}
+
+.parts img{
+    float: left;
+    margin:6px 0 0 36px;
+}
+
+/* 右边栏 */
+.relativehotsale{
+    width: 210px; height: 541px;
+    /* background-color: blue; */
+    float: left;
+    margin-top:-271px;
+    background-color: #fff;
+}
+
+.hotsaletop{
+    width: 210px; height: 60px;
+    border: 1px solid #ddd;
+}
+
+.hotsaletop span{
+    float: left;
+    margin: 20px 0 0 10px;
+    font-weight: 700;
+}
+
+.hotsaletop  p{
+    width: 5px; height: 5px;
+    border:1px solid #ddd;
+    border-radius: 50%;
+    float:right;
+    margin: 30px 5px 0 0;
+}
+
+.hotsaletop .redp{
+    background-color: #ff2337;
+}
+
+.rightgoods{
+    width: 210px; height: 118px;
+    border:1px solid #ddd;
+}
+
+.rightgoods img{
+    width: 75px; height: 75px;
+    float: left;
+    margin: 20px 0 0 4px;
+}
+
+.rightgoods a{
+    width: 119px; height:25px;
+    color: #000;
+    float: left;
+    font-size: 12px;
+    margin: 20px 0 0 5px;
+    overflow: hidden;
+    /* border: 1px solid blue; */
+}
+
+.rightgoods a:hover{
+    text-decoration: underline;
+}
+
+.price{
+    width: 100px ;height: 100px;
+    color: #ff2337;
+    margin-left: 80px;
+    margin-top: 73px;
+    font-size: 20px;
+    /* background-color: burlywood; */
+}
+
+/* 底部广告 */
+.hotshoesbland{
+    width: 1090px; height: 216px;
+    /* border: 1px solid blue; */
+    float: left;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.layer1{
+    width: 1075px; height: 29px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 20px 0 0 15px;
+}
+
+.layer2{
+    width: 1090px; height: 165px;
+    border: 1px solid #ddd;
+}
+
+.blandimg{
+    width:216px ;height:167px ;
+    border: 1px solid #ddd;
+    float: left;
+    margin: -2px 0 0 0px;
+}
+
+.blandimg img{
+    margin: 20px 0 0 45px;
+}

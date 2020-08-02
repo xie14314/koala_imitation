@@ -1,0 +1,117 @@
+.toptabnav{
+    width: 100%; height: 41px;
+    position: relative;
+    clear: both;
+}
+
+.tabmid{
+    width: 1090px; height: 41px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+/* 产品分类 */
+.product_categories{
+    width: 164px;height: 460px;
+    /* border:1px solid red; */
+    float: left;
+    position: relative;
+    z-index: 102;
+}
+
+/* 竖导航栏 */
+.product_categories_div{
+    width: 164px; height: 41px;
+    background:linear-gradient(90deg,red,#ff3264);
+    position: relative;
+}
+
+.cat_icon1{
+    display: line_block;
+    margin: 12px 24px 0 15px;
+    width: 15px;
+    height: 12px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cat_icon1 .iconi{
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.cat_span{
+    width:70px; height: 10px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+.cat_name1{
+    font-size: 14px;
+    color:#fff;
+    padding:12px 0 0 0;
+}
+
+.prd_li{
+    width: 164px; height: 39.4px;
+    background:linear-gradient(90deg,red,#ff3264);
+}
+
+/* 顶部边框 */
+.prd_li em{
+    display: block;
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+    width: 154px;
+    height: 1px;
+    background: #ff5160;
+    margin-top: -1px;
+}
+.prd_li_div1 img{
+    width:20px ;height:20px;
+    padding:8px 0 0 12px;
+    float: left;
+    position: relative;
+}
+
+.cat_names{
+    width: 70px; height: 20px;
+    color: #fff;
+    font-size: 14px;
+    padding:10px 0 0 25px ;
+    float: left;
+    position: relative;
+}
+
+.arrow{
+    width: 15px ;height: 20px;
+    color:#fff;
+    padding:10px 0 0 10px;
+    float: left;
+}
+
+/* 横导航栏 */
+.tabDivUlLi{
+    width: auto; height: 28px;
+    float: left;
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    padding:12px 0 0 50px;
+}
+
+.tabDivUlLi a{
+    color:#000;
+}
+
+.tabDivUlLi .homepage{
+    color:#ff2337;
+}
+
+.tabDivUlLi a:hover{
+    color:#ff2337;
+}

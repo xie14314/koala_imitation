@@ -1,0 +1,112 @@
+.showimg{
+    width: 1520px; height: 505px;
+    /* border: 1px solid #ff2337; */
+    background-image: url('../image/banner.jpg');
+    background-repeat:  no-repeat;
+    position:relative;
+    background-position: -200px 0;
+}
+
+/* 按钮位置 */
+.btnlocation{
+    width: 1090px;height: 505px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+
+.btnlocation .leftbtn{
+    width: 34px; height: 68px;
+    /* background-color: #aaa; */
+    background-image: url('https://kaola-haitao.oss.kaolacdn.com/fd1d7d20-1f64-4c35-a49a-a73f7d20b73e_979_797.png');
+    margin: 200px 0 0 5px;
+    float: left;
+    background-position: -625px -68px;
+}
+
+.btnlocation .rightbtn{
+    width: 34px; height: 68px;
+    /* background-color: #aaa; */
+    background-image: url('https://kaola-haitao.oss.kaolacdn.com/fd1d7d20-1f64-4c35-a49a-a73f7d20b73e_979_797.png');
+    background-position:-670px -67px ;
+    margin: 200px 5px 0 0;
+    float: right;
+}
+
+/* 小白点位置 */
+.whitrpoint_location{
+    width: 500px; height:20px ;
+    /* background-color: #ddd; */
+    float: right;
+    bottom: 70px;
+    margin-left:190px;
+    position: absolute;
+    z-index: 99;
+}
+
+.whitrpoint_location p{
+    width: 9px ; height: 9px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+.whitrpoint_location p:nth-child(1){
+    background-color: #ff2337;
+}
+
+/* 轮播图底部 */
+.adBar{
+    width: 100%; height: 45px;
+    background-color: rgba(0,0,0,.3);
+    float: left;
+    position: absolute;
+    bottom:0;
+}
+
+.adBarMid{
+    width: 1090px;
+    height: 45px;
+    margin: 0 auto;
+}
+.abBarLeft li{
+    float: left;
+    width: 77px;
+    height: 33px;
+    text-align: center;
+    padding: 12px 0 0 0;
+    margin-right: 40px;
+}
+
+.aBL_a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.aBL_a img{
+    vertical-align: middle;
+}
+
+.abBarRight a{
+    color:#fff;
+    float: right;
+    margin: 12px 0 0 0;
+    font-size: 12px;
+    position: relative;
+}
+.abBarRight img{
+    float: right;
+    margin: 10px 0 0 0;
+}
+.abBarRight a:hover{
+    text-decoration: underline;
+}
+
+/* 中间间隔 */
+.gap{
+    width: 1520px;
+    height: 25px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+

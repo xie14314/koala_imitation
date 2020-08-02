@@ -1,0 +1,131 @@
+.footwrap{
+    width: 1520px;height: 640px;
+    background-color: #fff;
+    clear: both;
+}
+
+.foottop{
+    width: 1520px; height: 88px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+
+.foottopmid{
+    width: 1090px; height: 400px;
+    margin: auto;
+    padding-top: 87px;
+    /* border:1px solid #000 ; */
+}
+
+.foottopul li{
+    width: 272px; height: 48px;
+    padding: 49px 0px;
+    float: left;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+ }
+
+.circleimg{
+     width: 48px; height: 48px;
+     border: 2px solid #ddd;
+     border-radius: 50%;
+     font-size: 18px;
+     font-weight: 700;
+     float: left;
+     position: relative;
+     margin: 0 0 0 40px;
+}
+
+.circleimg span{
+    padding: 14px 0 0 14px;
+    float: left;
+}
+
+.boldtitle{
+    width: 120px; height: 20px;
+     margin: 5px 0 0 10px;
+     font-size: 18px;
+     font-weight: 700;
+     float: left;
+     position: relative;
+
+}
+.normalpromise{
+    width: 150px; height: 20px;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.footguidelist{
+    width: 1090px; height: 263px;
+    /* background-color: skyblue; */
+    float: left;
+    position: relative;
+}
+
+.leftguide{
+    width: 258px; height: 140px;
+    float: left;
+    position: relative;
+}
+
+.footlogo{
+    width: 220px; height: 43px;
+    background-image: url('https://kaola-haitao.oss.kaolacdn.com/88330630-0c6e-4653-9f0a-92e9ae5a2f42_420_130.png?x-oss-process=image/resize,w_220,h_0/quality,q_85&v=1');
+    background-repeat: no-repeat;
+    margin: 60px 0 0 38px;   
+}
+
+.footfocuson{
+    width: 218px; height: 32px;
+    /* background-color: purple; */
+    margin:3px 0 0 70px;
+}
+
+.footfocuson img{
+    vertical-align: middle;
+}
+
+.midguide{
+    width: 600px; height: 262px;
+    /* background-color:red; */
+    float: left;
+}
+
+.outeritem{
+    width: 72px; height: 200px;
+    float: left;
+    margin: 50px 0 0 26px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.inneritem{
+    width: 48px; height: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 15px 0 0 0;
+}
+
+.rightguide{
+    width:150px; height: 150px;
+    background-image: url('https://kaola-haitao.oss.kaolacdn.com/880b10ac-5714-4c1b-89a9-e24c2302ac79.png');
+    float:right;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0 0;
+}
+
+.rightguide span{
+    float: left;
+    margin: 114px 0 0 0 ;
+}
+
+.footcopyright{
+    width: 920px; height: 72px;
+    background-color: #333;
+    float: left;
+    color: #fff;
+    padding: 80px 0 0 600px;
+}

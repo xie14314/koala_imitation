@@ -1,0 +1,108 @@
+/* header*/
+.head{
+    width: 1520px;height:100px;
+    position: relative;
+    clear: both;
+}
+
+.headMid{
+    width: 1090px;height: 100px;
+    margin:0 auto;
+    position: relative;
+}
+/* logo */
+.logo{
+    width: 330px; height: 82px;
+    float: left;
+    margin:20px 0 0 0;
+    position: relative;
+}
+
+/* 搜索框 */
+.searchbox{
+    float: left;
+    position: absolute;
+    margin:35px 0 0 343px;
+    width: 491px; height: 36px;
+    border: 2px solid #ff2337;
+    border-radius: 20px;
+}
+
+.searchbox .searchipt{
+    width: 405px; height: 24px;
+    margin: 5px 0 0 10px;
+    outline: none;
+    padding-left:20px;
+    float: left;
+    border: none;
+    color: #999;
+    background-image: url('../image/放大镜.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+/* 按钮 */
+.searchbox .searchbtn{
+    clear: both;
+    width:60px; height: 37px;
+    background-color: #ff2337;
+    outline: none;
+    border:0;
+    border-radius:20px;
+    position: absolute;
+    background-image: url('../image/放大镜\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.searchbtn:hover{
+    background-color: #ff5000;
+}
+
+.searchtips{
+    float: right;
+}
+
+/* 购物车 */
+.shoppingcart{
+    width: 114px; height: 36px;
+    float:right;
+    margin-top: 35px;
+    margin-right: 80px;
+    border: 2px solid #ff2337;
+    border-radius: 20px;
+}
+
+.carticon{
+    padding: 8px 5px 0 10px;
+    position:relative;
+    float:left;
+}
+
+.cartname{
+    margin-top: 10px;
+    float: left;
+}
+.cartname a{
+    color: #000;
+}
+.shoppingcart:hover{
+    background-color: #ffb6c1;
+}
+
+.shoppingcart:hover a{
+    color: red;
+}
+
+/* 加入购物车的商品数量 */
+.cartgoodsnum{
+    width: 20px; height: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ff2337;
+    text-align: center;
+    float:right;
+    margin: 10px 10px 0 0;
+}
